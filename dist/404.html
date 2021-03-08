@@ -6,15 +6,18 @@
   <title>Page Not Found</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
     * {
       line-height: 1.2;
       margin: 0;
     }
 
     html {
-      color: #888;
+      background-color: #1D1F21;
+      color: #C5C8C6;
       display: table;
-      font-family: sans-serif;
+      font-family: 'IBM Plex Sans', sans-serif;
       height: 100%;
       text-align: center;
       width: 100%;
@@ -27,14 +30,31 @@
     }
 
     h1 {
-      color: #555;
+      color: #A5A8A6;
       font-size: 2em;
       font-weight: 400;
+      margin: -1em 0 1em 0;
     }
 
     p {
-      margin: 0 auto;
+      margin: 0 auto 1em auto;
       width: 280px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #C5C8C6;
+      height: 2em;
+      margin: 1em;
+
+      border-bottom: #FF5A46 2px solid;
+      padding: .2em;
+      transition: padding 0.2s, color 0.2s;
+    }
+
+    a:hover {
+      color: #FF5A36;
+      padding: .2em 0;
     }
 
     @media only screen and (max-width: 280px) {
@@ -46,16 +66,18 @@
 
       h1 {
         font-size: 1.5em;
-        margin: 0 0 0.3em;
       }
+
 
     }
   </style>
 </head>
 
 <body>
+  <img src="icon.png">
   <h1>Page Not Found</h1>
   <p>Sorry, but the page you were trying to view does not exist.</p>
+  <a href="index.html">HOME</a>
 </body>
 
 </html>
