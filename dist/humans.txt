@@ -1,17 +1,5 @@
 # humanstxt.org/
 # The humans responsible & technology colophon
 
-# ME
-
-    Patrick James Mardis | patrick@patrickjam.es
+Patrick James Mardis | patrick @ patrickjam.es
         Creative Technology and Design, University of Colorado, Boulder
-
-# THANKS
-
-    David Schaal, ATLAS Institute, University of Colorado, Boulder
-
-# TECHNOLOGY COLOPHON
-
-    CSS3, HTML5
-    Apache Server Configs, Modernizr, Normalize.css
-    webpack, jQuery, node-sass
