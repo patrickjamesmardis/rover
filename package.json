@@ -18,7 +18,7 @@
   "author": "patrick james mardis",
   "license": "MIT",
   "devDependencies": {
-    "css-loader": "^5.1.1",
+    "css-loader": "^5.2.6",
     "gsap": "^3.6.0",
     "node-sass": "^5.0.0",
     "sass-loader": "^11.0.1",
